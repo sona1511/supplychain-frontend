@@ -29,6 +29,7 @@ componentDidMount(){
     ProductService.getProducts().then((res) => {
         this.setState({ products: res.data});
     });
+    
 }
 
 addProduct(){
